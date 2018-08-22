@@ -19,10 +19,9 @@ int n=i;
 	for(int p=0;p<2*i-1;p++){
 		
 		cout<<n;
-		if(p<=i)
+		if(p<=i/2)
 		n++;
-		
-                if(p>i)
+		else
                 n--;
 
 		if(i==1)
