@@ -20,7 +20,7 @@ int main() {
 
 if((x1 - x2) % (v2 - v1) == 0){
 cout<<"yes";
-cout<<endl<<(x1 - x2) / (v2 - v1);
+cout<<endl<<"number of steps"<<(x1 - x2) / (v2 - v1);
 }else
 cout<<"no";
 
