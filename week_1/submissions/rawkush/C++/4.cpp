@@ -4,7 +4,7 @@ using namespace std;
 int findMinPosition(int x[]){
 
 int small=x[0];
-int pos;
+int pos=0;
 for(int i=0;i<5;i++)
 if( small>x[i])
 {
@@ -25,27 +25,27 @@ if( biggest<x[i])
 biggest=x[i];
 pos=i;
 }
-return small;
+return pos;
 }
 
 int main(){
 int minSum=0,maxSum=0;
 int x[5];
 for(int i=0;i<5;i++)
-cin>>x;
+cin>>x[i];
 
 int small,big;
-smallminSum=findMinPosition(x);
+small=findMinPosition(x);
 big=findMaxPosition(x);
 
 for(int i=0;i<5;i++){
 
 if( i!=big){
-minSum=minSum+a[i];
+minSum=minSum+x[i];
 }
 
 if(i!=small){
-maxSum=maxSum+a[i]
+maxSum=maxSum+x[i];
 }
 
 }
