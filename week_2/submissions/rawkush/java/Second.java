@@ -21,11 +21,6 @@ public class Second {
        System.out.print("Enter the number of times to runt the program");
         Scanner in = new Scanner(System.in);
       
-	int testCase;
-	 testCase= in.nextInt();
-	
-	while(testCase>=0){
-	    testCase--;
 	    int len;
 	    len= in.nextInt();
 	    int A[]= new int[len];
@@ -48,7 +43,7 @@ public class Second {
 	        }
 	    }
 	    System.out.print( flag) ;
-	}
+	
 	
 
     }
