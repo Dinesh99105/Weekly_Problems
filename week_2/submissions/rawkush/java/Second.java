@@ -18,7 +18,7 @@ public class Second {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       System.out.print("hello");
+       System.out.print("Enter the number of times to runt the program");
         Scanner in = new Scanner(System.in);
       
 	int testCase;
@@ -29,10 +29,10 @@ public class Second {
 	    int len;
 	    len= in.nextInt();
 	    int A[]= new int[len];
-
+       System.out.print("Enter the number of varibles");
 	    for(int i=0; i<len; i++)  
 		 A[i]=in.nextInt();;
-	    
+	           System.out.print("Enter the number to search");
 	    int numberFind;
 	    numberFind=in.nextInt();
 	    
