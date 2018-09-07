@@ -34,7 +34,7 @@ return pn;
 
 int nextPrime(int x){
 
-
+x++;
   while(true){
 
   int  i, m=0, flag=0;
