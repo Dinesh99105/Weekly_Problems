@@ -66,7 +66,7 @@ int main()
 
     int y=productOFPrime(x);
 
-    cout<<"number to be added "<<nextPrime(y) ;
+    cout<<"number to be added "<<nextPrime(y)-y ;
 
   return 0;
 }
