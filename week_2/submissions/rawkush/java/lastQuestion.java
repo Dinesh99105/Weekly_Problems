@@ -30,8 +30,7 @@ public class lastQuestion {
     
     private String reversedString(String s){
         
-        String a[]=s.split(".");
-               System.out.print(a[0]);
+        String[] a=s.split("\\a.");
 
         String temp="";
         for(String l:a)
