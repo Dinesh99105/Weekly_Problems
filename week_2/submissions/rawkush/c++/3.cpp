@@ -32,7 +32,6 @@ for(int i=0; i<s.size();i++){
     prevWordConsonant=true;
   }
 
-
 }
 
 cout<<"berlanese";
