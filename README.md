@@ -20,7 +20,7 @@ Questions will be week-wise in `week_*/Readme.md`.
 
 1. Make a branch.
 1. Create a folder `week_<the_assigned_week_number>` and add a Readme.md in that folder.
-1. Copy the contents of [question_template.md](/question_template) present in `root` folder to Readme.md in `week_<the_assigned_week_number>` folder.
+1. Copy the contents of [question_template.md](/question_template.md) present in `root` folder to Readme.md in `week_<the_assigned_week_number>` folder.
 1. Then follow the steps given in Readme.md.
 1. Make a PR.
 
