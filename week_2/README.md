@@ -94,18 +94,3 @@ much.very.program.this.like.i
 ```
 
 [Go to reference](https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string/0)
-
-
-
-## Question 6
-
-consider a list from 1 to n as people. Every person is holding a gun if the the number x present in list's square is present then that person will shoot the person who is the square.
-
-input the value of N from the user. and find all the people who will survive  
-
-
-
-
-
-
-
